@@ -5,7 +5,7 @@
 }
 
 .hero {
-    background-image: url('https://sm.ign.com/t/ign_br/screenshot/default/spider-man-2002-banner_k5qn.960.jpg');
+    /* background-image: url('s://sm.ign.com/t/ign_br/screenshot/default/spider-man-2002-banner_k5qn.960.jpg'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -34,6 +34,10 @@ body {
     font-family: 'Arial', sans-serif;
     color: #fff;
     background-color: #111;
+}
+
+html, body {
+    height: 100%;
 }
 
 .hero {
