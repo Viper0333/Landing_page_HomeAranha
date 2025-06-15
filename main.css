@@ -31,30 +31,36 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
-    color: #fff;
-    background-color: #111;
-}
-
-html, body {
-    height: 100%;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: #000; /* Fallback neutro */
 }
 
 .hero {
-    background: url('https://i.imgur.com/bnOqzEu.jpg') center/cover no-repeat;
+    background-image: url('https://wallpapers.com/downloads/high/spider-man-pictures-jya55vpr6vgriaxt.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     position: relative;
+    color: white;
 }
 
-.overlay {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 2rem;
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* ESCURECIMENTO */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    border-radius: 12px;
+    padding: 20px;
 }
+
 
 .hero h1 {
     font-size: 3rem;
